@@ -1,8 +1,9 @@
 var app = require('express').Router()
 var db = require('../db/db.json')
+var fs = require("fs")
 // get note function
 app.get('/api/notes', function(req, res){
-    db = JSON.parse(fs.readfilesync('./db/db.json')) || []
+    db = JSON.parse(fs.readFileSync('./db/db.json')) || []
     console.log('get route', db)
     res.json(db)
 })
@@ -10,8 +11,8 @@ app.get('/api/notes', function(req, res){
 app.post('/api/notes', function(req, res){
     var newNote = {
         id: Math.floor(Math.random()*100),
-        tile: req.body.title,
-        test: req.body.text
+        title: req.body.title,
+        text: req.body.text
     }
     db.push(newNote)
     fs.writeFileSync('./db/db.json', JSON.stringify(db), function(err){

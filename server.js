@@ -11,6 +11,7 @@ const htmlRoutes = require('./routes/htmlRoutes')
 
 app.use(apiRoutes)
 app.use(htmlRoutes)
+
 app.listen(PORT, function(){
     console.log('applistening')
 })
