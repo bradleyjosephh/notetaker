@@ -36,4 +36,9 @@
   ## Email-Address
   If you have any questions you can reach me at:
    bradleyjosephh@gmail.com
-  
+
+Live Link: https://aqueous-bastion-88337.herokuapp.com/
+
+  ![notetaker_pic1](https://user-images.githubusercontent.com/93616520/147134118-6b0c248e-0a31-4534-9f7a-f11812b2aa9c.png)
+
+![notetaker_pic2](https://user-images.githubusercontent.com/93616520/147134124-df7d26f8-c018-4e5d-afb6-5a1cd512e51d.png)
