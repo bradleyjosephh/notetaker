@@ -19,7 +19,7 @@
    git clone "https://github.com/notetaker"
   --
   ## Usage
-   "node index.js"
+   "node server.js"
   --
   ## Credits
    N/A
